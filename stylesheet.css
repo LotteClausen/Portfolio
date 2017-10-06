@@ -1,0 +1,429 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: verdana, arial, times new roman, sans-serif; 
+	margin: 0;
+}
+
+.valgt {
+	text-decoration: underline;
+}
+
+/********************************** menu - start ************************************************************/
+header {
+	height: 3.5em;
+	width: 100%;
+	border-bottom: 1px solid black;
+
+    
+	
+}
+#menu ul {
+	margin: 0;
+	padding: 0; 
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+}
+#menu li {		
+	float: left;
+	
+}
+#menu li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px 20px;
+	color: black;
+	font-size: 1em;
+	
+}
+
+/********************************** menu - slut ******************************************************'********/
+
+	
+	
+	
+#portfolio-knap {
+	color: black;
+	background-color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+#portfolio-knap:hover {
+	color: white;
+	background-color: black;
+}
+
+
+
+
+/**************** Forsiden - Start *********/ /*** og *** / /************** Portfolio - Start ******************************/
+
+
+/* Style the header */
+
+#forside_baggrund{
+	background-image: url(image/mac-phone.jpg);
+    background-repeat: no-repeat;
+	background-size: 1000px;
+	background-position: center;
+	background-color: #efece9;
+	padding: 300px; 
+	
+
+}
+
+.header {
+    padding-bottom: 90px;
+	padding-right: 90px;
+	color: white;
+	text-align: center;
+	font-size: 135%;
+	
+
+	}
+
+
+/* Style the linje_menu bar */
+.linje_menu {
+    overflow: hidden;
+    background-color: #676767;	
+
+}
+
+/* Style the linje_menu links */
+.linje_menu a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+/* Change color on hover */
+.linje_menu a:hover {
+	background-color: #ddd;
+    color: black;
+}
+
+
+.gallery1 {
+	margin: 5px;
+    float: left;
+    width: 320px;
+	
+	
+	
+}
+
+
+.gallery1:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gallery1 img {
+    width: 144%;
+		
+	
+}
+
+.gallery2 {
+	margin: 5px;
+    float: left;
+    width: 355px;
+	
+	
+}
+
+
+.gallery2:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gallery2 img {
+    width: 90%;
+	padding-left: 170px;
+	
+}
+
+
+.gallery3 {
+	margin: 5px;
+    float: left;
+    width: 259px;
+	
+	
+	}
+
+
+.gallery3:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gallery3 img {
+    width: 100%;
+	padding-left: 170px;
+	
+}
+.gallery4 {
+	margin: 5px;
+    float: left;
+    width: 259px;
+		
+}
+
+
+.gallery4:hover {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gallery4 img {
+    width: 100%;
+	padding-left: 200px;
+	
+}
+/***************** Forsiden - Slut *********/ /** og **/ /************** Portfolio - Slut ******************************/
+
+
+
+
+
+/*********************************** Profil - Start ***************************************************************/
+
+
+#profil {
+	margin-left: 140px;
+}
+
+#profil-menu {
+	width: 50%;
+}
+#profil-menu ul {
+	margin: 0;
+	padding: 0; 
+	list-style-type: none;
+	overflow: hidden;
+}
+#profil-menu li {		
+	float: left;
+	background-color: #F2F2F2;
+	border: 1px solid #DDDDDD;
+	
+	
+}
+#profil-menu li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 14px 16px;
+	color: black;
+	font-size: 0.8em;
+	
+}
+#profil-menu li a:hover {
+	background-color: #DFDFDF;
+}
+
+#om-mig {
+	width: 70em;
+	height: 35em;
+	background-color: #F2F2F2;
+	border: 1px solid #DDDDDD;
+	padding: 16px;
+}
+
+#om-mig p {
+	margin: 0;
+}
+
+#hvem-er-jeg {
+	width: 45%;
+	height: 38%;
+	float: left;
+	margin: 15px;
+}
+#profilbillede {
+	background-image: url(image/profilbillede.jpg);
+	background-size: 100%;
+	width: 30%;
+	height: 80%;
+	float: right;
+	margin: 15px;
+	box-shadow: -10px 10px 5px #B9B9B9;
+}
+
+/************** uddannelsen - Start *********/
+
+#tidslinje {
+	background-image: url("image/tidslinje.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 100%;
+	padding-left: 50px;
+	margin-left: 350px;
+}
+
+#tekst-uddannelse {
+	width: 45%;
+	height: 38%;
+	float: left;
+	margin: 15px;
+}
+
+
+/******************************* uddannelsen - Slut **********************************************************************/
+
+
+/****************************** Kompetencer - Start **********************************************************************/
+
+
+#kodning-boks {
+	background-image: url(image/kodning-photoshop.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 30%;
+	height: 80%;
+	float: right;
+	margin: 70px;
+	
+	
+	
+}
+
+#design-boks {
+	background-image: url(image/design-photoshop.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 30%;
+	height: 80%;
+	float: left;
+	margin: 60px;
+	
+}
+
+
+
+
+/****************************** Kompetencer - Slut **********************************************************/
+
+
+/****************************** Anbefalinger - Start ******************************************************/
+
+
+#billede_anbefalinger {
+	background-image: url(image/boks_com.jpg);
+	background-size: 35%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	width: 100%;
+	height: 100%;
+	margin: 20px;
+	opacity: 0.7;
+	
+	
+		
+}
+
+/*********************************** Anbefalinger - Slut ***************************************************/
+
+
+/*********************************** Profil - Slut *********************************************************/
+
+
+
+
+
+
+/*********************************** Kontakt - Start ***************************************************/
+
+#baggrund-kontakt {
+	height: 90em;
+	width: 87em;
+	background-image: url("image/kontakt-1.jpg");
+	background-size: 60% auto;
+	background-repeat: no-repeat;
+}
+
+#kasse1 {
+	width: 45%;
+	height: 38%;
+	float: left;
+	margin: 15px;
+}
+
+
+#kasse2 {
+	width: 40%;
+	height: 40%;
+	float: right;
+	margin: 15px;
+	background-color:#F2F2F2;
+	border: 1px solid black;
+	box-shadow: -10px 10px 5px #B9B9B9;
+}
+
+/*********************************** Kontakt - Slut ***************************************************/
+
+
+/********************************** Kontakt fomular - start ***************************************************/
+
+
+#besked {
+	width: 90%;
+	height: 220px;
+	border: 1px solid black;
+	
+	
+}
+
+.container {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.tekstboks {
+	width: 150px;
+	height: 25px;
+	border: 1px solid black;
+}
+
+#send {
+	padding: 7px 20px;
+}
+
+
+/*********************************** Kontakt fomular - slut ***************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
